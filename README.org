@@ -1,0 +1,10 @@
+#+TITLE: arena-pattern
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peter@polidoro.io
+
+* Setup
+
+#+BEGIN_SRC sh
+guix shell gcc-toolchain
+gcc -o arena-pattern arena-pattern.c
+#+END_SRC
